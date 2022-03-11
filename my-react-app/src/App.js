@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './Car';
+import Xe from './Xe';
 
 function App() {
   const htlm =
@@ -17,9 +19,12 @@ function App() {
             rel="noopener noreferrer"
           >
             Learn React 123
-          </a>
+          </a> 
+          <Car />
+          <Xe />
         </header>
       </div>
+     
     );
   return htlm
 }

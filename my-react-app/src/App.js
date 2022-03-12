@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Car from './Car';
 import Xe from './Xe';
+import MyForm from './MyForm';
 
 function App() {
   const htlm =
@@ -23,7 +24,8 @@ function App() {
           {/* <Car />
           <Xe color='red' value='xe đỏ' branch='Lambor'/>
           <Xe color='blue'value='xe xanh' branch='Audi'/> */}
-          <Xe color='red'value='xe cam' branch='Ferrari'/>
+          {/* <Xe color='red'value='xe cam' branch='Ferrari'/> */}
+          <MyForm />
         </header>
       </div>
      

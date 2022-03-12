@@ -23,6 +23,7 @@ function App() {
           <Car />
           <Xe color='red' value='xe đỏ' branch='Lambor'/>
           <Xe color='blue'value='xe xanh' branch='Audi'/>
+          <Xe color='orange'value='xe cam' branch='Ferrari'/>
         </header>
       </div>
      

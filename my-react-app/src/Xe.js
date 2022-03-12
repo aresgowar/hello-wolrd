@@ -3,28 +3,11 @@ import './App.css';
 import React from 'react';
 
 class Xe extends React.Component {
-     htlm =
-      (
-        <div className="App">
-          <header className="App-header">
-            <img src='./pngwing.com.png' className="App-logo" alt="logo" />
-            <p>
-              Quạt
-            </p>
-            <a
-              className="App-link"
-              href="https://www.dienmayxanh.com/quat"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Siêu mát
-            </a>
-          </header>
-        </div>
-      );
-    render() {
-        return this.htlm
-    }
+
+  render() {
+    console.log('Xe class ', this.props.color)
+    return <h1 style={{ color: this.props.color }}>{this.props.value} {this.props.branch}</h1>
+  }
 }
 
 export default Xe;

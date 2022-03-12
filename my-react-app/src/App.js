@@ -21,7 +21,8 @@ function App() {
             Learn React 123
           </a> 
           <Car />
-          <Xe />
+          <Xe color='red' value='xe đỏ' branch='Lambor'/>
+          <Xe color='blue'value='xe xanh' branch='Audi'/>
         </header>
       </div>
      
